@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+#title {
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+    margin-top: 2rem;
+    border-radius: 5%;
+}
+
+button {
+    padding : 0.5rem 2rem;
+    margin-top: 1rem;
+    background-color: #333;
+    border-radius: 30px;
+    color: white;
+}
+button:hover {
+    background-color: #555;
+    cursor: pointer;
+}
+
+#makeit {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    width: 20%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.makeTodo {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-radius: 50px;
+    background-color: #832626;
+    width: 33%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+span {
+    color: white;
+}
+
+input {
+    padding: 0.5rem 1rem;
+    border: 1px solid #333;
+    border-radius: 15px;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+#delete {
+    background-color: red;
+}
+
+#delete:hover {
+    background-color: #ff3333;
+}
+
+.makeTodo > * {
+    margin-top: 1rem;
+}
+
+.todo {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    border-radius: 50px;
+    background-color: #832626;
+    color: white;
+    width: 33%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.todo > * {
+    margin-top: 1rem;
+}
